@@ -6,7 +6,7 @@ import Dashboard from "../src/components/DashBoard/DashBoard"
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/financer-cash">
             <Routes>
                 <Route path="/" element={<Login />} />
                 <Route path="/dashboard" element={<Dashboard />} />
