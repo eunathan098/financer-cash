@@ -1,0 +1,27 @@
+:root {
+    /* Cores Principais  */
+    --color-primary: #820ad1;
+    --color-primary-hover: #6a08ad;
+
+    /* Cores de Fundo */
+    --color-background: #f8f7fa;
+    --color-surface: #ffffff;
+
+    /* Textos */
+    --color-text: #29232e;
+    --color-text-secondary: #77717f;
+
+    /* Estados Financeiros */
+    --color-sucess: #16a34a;
+    --color-danger: #dc2626;
+
+    /* Bordas */
+    --color-border: #e5e1e9;
+}
+
+body{
+    margin: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: Arial, sans-serif;
+}

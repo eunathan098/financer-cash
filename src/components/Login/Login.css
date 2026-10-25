@@ -1,0 +1,114 @@
+.container-general-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 24px;
+    box-sizing: border-box;
+    background-color: #820ad1;
+
+}
+
+.container-login {
+    width: 100%;
+    max-width: 400px;
+    padding: 36px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(40, 20, 60, 0.08);
+}
+
+
+.login {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.login h1 {
+    margin: 0;
+    color: #29232e;
+    font-size: 28px;
+    text-align: center;
+}
+
+label{
+    text-align: left;
+}
+
+.login label {
+    color: #29232e;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ded8e7;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+.login input:focus {
+    border-color: #820ad1;
+    box-shadow: 0 0 0 3px rgba(130, 10, 209, 0.12);
+}
+
+#btn-entrar {
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background-color: #820ad1;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#btn-entrar:hover {
+    background-color: #6a08ad;
+
+}
+
+.logotipo-login{
+    height: 100px;
+    width: 100px;
+}
+
+form {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+    flex-direction: column;
+}
+
+span{
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+#btn-entrar {
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background-color: #820ad1;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+}
