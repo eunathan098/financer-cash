@@ -2,11 +2,26 @@
 import "./Content.css"
 import "../../StylesResponsive.css"
 
+import { useNavigate } from "react-router-dom"
+
 // Importação de Imagens
 import IconeReceitas from "../../assets/imagens/Icons/receita.png"
 
 
 function Content(){
+    const navigate = useNavigate()
+
+    function acessarReceitas(){
+        navigate("/receitas");
+    }
+
+    function acessarDespesas(){
+        navigate("/despesas")
+    }
+
+
+
+
     return(
         <>
             <div className="container">
@@ -36,6 +51,11 @@ function Content(){
 
                     </div>
                 </div>
+            </div>
+
+            <div className="container-receitas-despesas-relatorio">
+                <input type="submit" value="Receitas" id="btn-receitas" onClick={acessarReceitas}/>
+                <input type="submit" value="Despesas" id="btn-despesas" onClick={acessarDespesas}/>
             </div>
         
         </>

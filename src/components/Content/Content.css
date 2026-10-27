@@ -1,4 +1,4 @@
-.container{
+.container {
     display: flex;
     padding: 50px;
     text-align: center;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.container-cards{
+.container-cards {
     display: flex;
     width: 100%;
     text-align: center;
@@ -15,7 +15,7 @@
     gap: 10px;
 }
 
-.card{
+.card {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -26,36 +26,79 @@
     box-shadow: 0px 0px 10px 0px rgba(28, 28, 28, 0.418);
     border-radius: 20px;
     gap: 5px;
-
-
 }
 
 
 
-.icon-cards{
+.icon-cards {
     height: 50px;
     width: 50px;
     cursor: pointer;
 }
 
-.content-titulos{
+.content-titulos {
     font-size: 25px;
 }
 
-.valores-positivos{
+.valores-positivos {
     color: rgb(6, 184, 6);
     font-size: 30px;
     font-weight: 600;
 }
 
-.valores-negativos{
+.valores-negativos {
     color: rgb(245, 17, 17);
     font-size: 30px;
     font-weight: 600;
 }
 
-.saldo-total{
+.saldo-total {
     color: rgb(131, 131, 240);
     font-size: 30px;
     font-weight: 600;
+}
+
+.container-receitas-despesas-relatorio {
+    display: flex;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+}
+
+/* Direcionamentos */
+#btn-receitas {
+    color: white;
+    padding: 30px;
+    width: 250px;
+    cursor: pointer;
+    background-color: rgb(131, 131, 240);
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+#btn-receitas:hover {
+    opacity: 0.7;
+}
+
+#btn-despesas {
+    color: white;
+    padding: 30px;
+    width: 250px;
+    cursor: pointer;
+    background-color: rgb(131, 131, 240);
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+#btn-despesas:hover {
+    opacity: 0.7;
 }
